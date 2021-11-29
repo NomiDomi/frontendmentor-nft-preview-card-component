@@ -43,7 +43,12 @@ body {
     border-radius: 8px;
 }
 
-
+.title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 24px;
+}
 
 
 @media screen and (max-width: 400px) {
