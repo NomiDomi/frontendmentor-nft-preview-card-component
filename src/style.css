@@ -58,6 +58,32 @@ body {
     color: var(--primary-100);
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.eth, .time {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+.eth .text {
+    font-weight: 600;
+    color: var(--primary-200);
+}
+
+.time .text {
+    font-weight: 400;
+    color: var(--primary-100);
+}
 
 @media screen and (max-width: 400px) {
     .card-container {
