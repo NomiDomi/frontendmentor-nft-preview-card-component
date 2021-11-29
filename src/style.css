@@ -35,3 +35,19 @@ body {
     background-color: var(--neutral-500);  
     margin: auto;
 }
+
+.main-image {
+    width: 302px;
+    transition: .5s ease;
+    margin: 1.5rem;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .card-container {
+        width: 90vw;
+        min-width: 350px;
+        flex-direction: column-reverse;
+    }
+}
