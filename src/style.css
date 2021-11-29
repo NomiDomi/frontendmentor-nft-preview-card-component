@@ -43,6 +43,12 @@ body {
     border-radius: 8px;
 }
 
+.main-image:hover {
+    cursor: pointer;    
+    opacity: 0.3;
+    border-radius: 8px;
+}
+
 .title {
     font-weight: 600;
     font-size: 22px;
