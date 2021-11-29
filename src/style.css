@@ -50,6 +50,11 @@ body {
     margin-top: 24px;
 }
 
+.title:hover, .creator .name:hover {
+    cursor: pointer;
+    color: var(--primary-200);
+}
+
 .subtitle {
     font-weight: 300;
     font-size: 18px;
