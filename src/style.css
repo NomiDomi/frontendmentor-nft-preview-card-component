@@ -91,6 +91,32 @@ body {
     margin-top: 24px;
 }
 
+.profile-image {    
+    width: 30px;
+    border: 1px solid var(--white);
+    border-radius: 30px;
+}
+
+.creator-row {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.creator {
+    display: flex;
+}
+
+.creator .text {
+    color: var(--primary-100);      
+    margin: 0 5px 0 16px;
+}
+
+.creator .name, .creator .text {
+    font-weight: 400;
+    font-size: 16px;
+}
+
 @media screen and (max-width: 400px) {
     .card-container {
         width: 90vw;
