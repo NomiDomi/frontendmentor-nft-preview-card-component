@@ -49,6 +49,14 @@ body {
     border-radius: 8px;
 }
 
+.main-image-overlay:hover {
+    background-color: var(--primary-200);
+    background-image: url(./images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+
 .title {
     font-weight: 600;
     font-size: 22px;
