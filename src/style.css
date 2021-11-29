@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/* Color schema */
+:root{
+    --primary-100: hsl(215, 51%, 70%);
+    --primary-200: hsl(178, 100%, 50%);
+  
+    --neutral-100: hsl(217, 54%, 11%);
+    --neutral-500: hsl(216, 50%, 16%);
+    --neutral-900: hsl(215, 32%, 27%);
+  
+    --white: hsl(0, 0%, 100%);
+}
+  
+*, 
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--neutral-100); 
+    color: var(--white); 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.card-container {
+    width: 350px;
+    border-radius: 15px;
+    background-color: var(--neutral-500);  
+    margin: auto;
+}
