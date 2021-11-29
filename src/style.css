@@ -85,6 +85,12 @@ body {
     color: var(--primary-100);
 }
 
+.separator {
+    height: 1px;
+    background-color: var(--neutral-900);
+    margin-top: 24px;
+}
+
 @media screen and (max-width: 400px) {
     .card-container {
         width: 90vw;
