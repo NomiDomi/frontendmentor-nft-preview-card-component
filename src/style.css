@@ -50,6 +50,14 @@ body {
     margin-top: 24px;
 }
 
+.subtitle {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 16px;
+    color: var(--primary-100);
+}
+
 
 @media screen and (max-width: 400px) {
     .card-container {
