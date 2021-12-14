@@ -3,9 +3,24 @@
 :root{
     --ff: 'Outfit', sans-serif;
 
+    --fw-l: 300;
+    --fw-r: 400;
+    --fw-sb: 600;
+
+    --fs-s: 1.6rem;
+    --fs-m: 1.8rem;
+    --fs-l: 2.2rem;
+
+    --lh-s: 2rem;
+    --lh-m: 2.6rem;
+    --lh-l: 2.8rem;
+
     --br-s: .8rem;
     --br-m: 1.5rem;
     --br-l: 3rem;
+
+    --mt-s: 1.6rem;
+    --mt-l: 2.4rem;
 
     --p: 2.4rem;
 
@@ -41,18 +56,44 @@ main {
     background-color: var(--neutral-500);  
     border-radius: var(--br-m);
     padding: var(--p);
-    width: 95%;
-    min-width: 327px;
+    width: 90%;
+    min-width: 327px;   
+}
 
-    outline: 2px solid green;    
+h1 {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-sb);
+    line-height: var(--lh-l);
+    margin-top: var(--mt-l);
+}
+
+p {
+    font-size: var(--fs-m);
+    font-weight: var(--fw-l);
+    line-height: var(--lh-m);
+    margin-top: var(--mt-s);
+    color: var(--primary-100);
 }
 
 .main-image {
     width: 100%;  
     transition: .5s ease;
     border-radius: var(--br-s);
-    border: 2px solid red;
 }
 
-.main-image-overlay {
+.main-image:hover {
+    cursor: pointer;    
+    opacity: 0.3;
+    border-radius: var(--br-s);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--mt-l);
+}
+
+.eth, .time {
+    display: flex;
+    align-items: center;
 }
