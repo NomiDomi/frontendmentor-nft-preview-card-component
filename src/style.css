@@ -87,6 +87,8 @@ p {
     border-radius: var(--br-s);
 }
 
+/******* Information Area ********/
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -96,4 +98,53 @@ p {
 .eth, .time {
     display: flex;
     align-items: center;
+}
+
+.text {
+    font-size: var(--fs-s);
+    line-height: var(--lh-s);
+    margin-left: .8rem;
+}
+
+.eth .text {
+    font-weight: var(--fw-sb);
+    color: var(--primary-200);
+}
+
+.time .text {
+    font-weight: var(--fw-r);
+    color: var(--primary-100);
+}
+
+.separator {
+    height: 1px;
+    background-color: var(--neutral-900);
+    margin-top: var(--mt-l);
+}
+
+/******* Creator Area ********/
+.profile-image {    
+    width: 30px;
+    border: 1px solid var(--white);
+    border-radius: var(--br-l);
+}
+
+.creator-row {
+    display: flex;
+    align-items: center;
+    margin-top: var(--mt-s);
+}
+
+.creator {
+    display: flex;
+}
+
+.creator .text {
+    color: var(--primary-100);      
+    margin: 0 5px 0 16px;
+}
+
+.creator .name, .creator .text {
+    font-weight: var(--fw-r);
+    font-size: var(--fs-s);
 }
