@@ -76,7 +76,7 @@ p {
     color: var(--primary-100);
 }
 
-h1:hover, .creator .name:hover {
+h1:hover, .creator a:hover {
     cursor: pointer;
     color: var(--primary-200);
 }
@@ -129,28 +129,28 @@ h1:hover, .creator .name:hover {
 }
 
 /******* Creator Area ********/
-.profile-image {    
-    width: 30px;
-    border: 1px solid var(--white);
-    border-radius: var(--br-l);
-}
-
 .creator-row {
     display: flex;
     align-items: center;
     margin-top: var(--mt-s);
 }
 
-.creator {
-    display: flex;
+.profile-image {    
+    width: 30px;
+    border: 1px solid var(--white);
+    border-radius: var(--br-l);
 }
 
-.creator .text {
+.creator {
     color: var(--primary-100);      
     margin: 0 5px 0 16px;
 }
 
-.creator .name, .creator .text {
+.creator a {
+    text-decoration: none;
+}
+
+.creator, .creator a {
     font-weight: var(--fw-r);
     font-size: var(--fs-s);
 }
