@@ -60,6 +60,7 @@ main {
     width: 90%;
     min-width: 327px;
     max-width: 350px; 
+    overflow: hidden;
 }
 
 h1 {
