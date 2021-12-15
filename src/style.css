@@ -57,7 +57,8 @@ main {
     border-radius: var(--br-m);
     padding: var(--p);
     width: 90%;
-    min-width: 327px;   
+    min-width: 327px;
+    max-width: 350px; 
 }
 
 h1 {
