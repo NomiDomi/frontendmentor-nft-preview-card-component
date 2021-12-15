@@ -66,6 +66,7 @@ h1 {
     font-weight: var(--fw-sb);
     line-height: var(--lh-l);
     margin-top: var(--mt-l);
+    text-decoration: none;
 }
 
 p {
@@ -76,15 +77,45 @@ p {
     color: var(--primary-100);
 }
 
-h1:hover, .creator a:hover {
+h1:hover, .name a:hover {
     cursor: pointer;
     color: var(--primary-200);
 }
 
+.main-image-overlay {
+    position: relative;
+}
+
 .main-image {
-    width: 100%;  
+    width: 100%;
     transition: .5s ease;
     border-radius: var(--br-s);
+}
+
+.overlay-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--primary-200);
+    border-radius: var(--br-s);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.overlay-background:hover {
+    opacity: 1;
+}
+
+/*
+.main-image-overlay:hover {
+    border-radius: 8px;
+    background-color: var(--primary-200);
+    opacity: 1;
 }
 
 .main-image:hover {
@@ -93,8 +124,11 @@ h1:hover, .creator a:hover {
     border-radius: var(--br-s);
 }
 
-/******* Information Area ********/
+.overlay:hover {
+    
+}*/
 
+/******* Information Area ********/
 .row {
     display: flex;
     justify-content: space-between;
@@ -135,22 +169,22 @@ h1:hover, .creator a:hover {
     margin-top: var(--mt-s);
 }
 
-.profile-image {    
+.image {    
     width: 30px;
     border: 1px solid var(--white);
     border-radius: var(--br-l);
 }
 
-.creator {
+.name {
     color: var(--primary-100);      
     margin: 0 5px 0 16px;
 }
 
-.creator a {
+.name a {
     text-decoration: none;
 }
 
-.creator, .creator a {
+.name, .name a {
     font-weight: var(--fw-r);
     font-size: var(--fs-s);
 }
