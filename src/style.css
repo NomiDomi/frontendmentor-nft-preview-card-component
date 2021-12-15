@@ -75,6 +75,11 @@ p {
     color: var(--primary-100);
 }
 
+h1:hover, .creator .name:hover {
+    cursor: pointer;
+    color: var(--primary-200);
+}
+
 .main-image {
     width: 100%;  
     transition: .5s ease;
