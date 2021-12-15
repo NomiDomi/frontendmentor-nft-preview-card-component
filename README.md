@@ -61,3 +61,5 @@ I will continue to focus on using the right responsive units and to keep my code
 ## Acknowledgments
 
 As you can see in my **Useful resources** section Kevin Powell is amazing and you should give him a follow!
+
+Also @anoshaahmed here on GitHub had a great solution for the image overlay. Took inspiration from her design: [https://github.com/anoshaahmed/nft-card](https://github.com/anoshaahmed/nft-card)
